@@ -20,7 +20,7 @@ elif choice == 2:
   deposit_amount = int(input('Enter the amount to deposit:'))
   amount += deposit_amount
   print('Deposit amount in your Account :', amount)
-  
+  print('Current Available balance', amount)
 
 elif choice == 3:
   withdrawl_amount = int(input('Enter the amount you want to withdraw:'))
